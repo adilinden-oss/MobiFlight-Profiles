@@ -335,6 +335,30 @@
         <configrefs />
       </settings>
     </config>
+    <config guid="f1c70c3c-f68b-40ca-9b3a-9f66b24626a2">
+      <active>true</active>
+      <description>Autopilot Master Toggle</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-1cebfe40-45a2-11ed-8001-444553540000" name="Button 8" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_MASTER)" presetId="b17146c8-2db3-4239-b797-e7bc11d557da" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="20dac427-f955-467e-94df-6dc2027787a0">
+      <active>true</active>
+      <description>Autopilot Button Altitude (ALT)</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-1cebfe40-45a2-11ed-8001-444553540000" name="Button 5" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_ALT_HOLD)" presetId="0" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
     <config guid="1b6353e2-ebd3-4cc9-b429-4b625ddc0c40">
       <active>true</active>
       <description>Autopilot Encoder Minus</description>
@@ -377,18 +401,6 @@
       <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-1cebfe40-45a2-11ed-8001-444553540000" name="Button 7" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;K:FLIGHT_LEVEL_CHANGE) (A:AIRSPEED INDICATED, knots) (&gt;K:AP_SPD_VAR_SET)" presetId="7084478a-6770-4b81-824a-a4a172681268" />
-          <onRelease />
-        </button>
-        <preconditions />
-        <configrefs />
-      </settings>
-    </config>
-    <config guid="203ae02c-e7ed-4bb6-8de7-bc1163aa1ff1">
-      <active>true</active>
-      <description>Autopilot Button Altitude (ALT)</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-1cebfe40-45a2-11ed-8001-444553540000" name="Button 5" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <button>
-          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_ALT_HOLD)" presetId="a946ee03-bd6d-4ed4-b1c2-72d26df93848" />
           <onRelease />
         </button>
         <preconditions />
