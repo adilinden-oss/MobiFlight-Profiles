@@ -61,6 +61,18 @@
         <configrefs />
       </settings>
     </config>
+    <config guid="316a78b2-d83d-46f0-bfce-d5edb228f9ed">
+      <active>true</active>
+      <description>Autopilot Button Heading (HDG)</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-1cebfe40-45a2-11ed-8001-444553540000" name="Button 1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(E:SIMULATION TIME,second) 0.25 + (&gt;L:myTshort)" presetId="-" />
+          <onRelease type="MSFS2020CustomInputAction" command="(E:SIMULATION TIME,second) (L:myTshort) &lt; if{ (&gt;K:AP_HDG_HOLD) } els{ (A:HEADING INDICATOR, degrees) (&gt;K:HEADING_BUG_SET) }" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
     <config guid="8a1bcdbc-ff02-4c8f-8cad-bedfa8d2cc65">
       <active>true</active>
       <description>Lever 3 Propeller Axis</description>
@@ -365,18 +377,6 @@
       <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-1cebfe40-45a2-11ed-8001-444553540000" name="Button 14" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;K:MINUS)" presetId="efe0e6c3-3c7a-4385-8912-5ce1b2a2a5bb" />
-          <onRelease />
-        </button>
-        <preconditions />
-        <configrefs />
-      </settings>
-    </config>
-    <config guid="22aa17ab-c767-47c0-ab50-adbed8f6fa03">
-      <active>true</active>
-      <description>Autopilot Button Heading (HDG)</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" serial="Bravo Throttle Quadrant / JS-1cebfe40-45a2-11ed-8001-444553540000" name="Button 1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <button>
-          <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_HDG_HOLD)" presetId="1e879ccb-96c9-401e-b447-940c7380a410" />
           <onRelease />
         </button>
         <preconditions />
