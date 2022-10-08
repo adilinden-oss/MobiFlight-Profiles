@@ -4,6 +4,8 @@ Please visit [https://www.mobiflight.com/](MobiFlight) and [https://hubhop.mobif
 
 ### Notes On Honeycomb Bravo Throttle Quadrant
 
+#### Mapping
+
 | Joystick   | Bravo Input      |
 | :--------: | :--------------: |
 | Y          | Lever 1 - Throttle 1
@@ -52,4 +54,20 @@ Please visit [https://www.mobiflight.com/](MobiFlight) and [https://hubhop.mobif
 | 46         | SWitch 7 Up/On
 | 47         | SWitch 7 Down/Off
 
+#### Native MSFS 2020 SWS Kodiak Settings
 
+From a YouTube video (note: add link)
+
+| Function | Assign |
+| --- | --- |
+| Condition Lever 1 Axis | R axis X |
+| Decrease Condition Lever 1 | Button 28 On-Press |
+| Condition Lever 1 Cutoff | Button 28 On-Press |
+| --- | --- |
+| Propeller 1 Axis | R axis Z |
+| Increase Propeller 1 Pitch | Button 26 On-Press |
+| Hold Propeller Reverse Thrust | Button 26 On-Press |
+| Propeller 1 Pitch High | Button 26 On-Release |
+| --- | --- |
+| Throttle 1 Axis | Z |
+| Throttle 1 Decrease | Button 24 On-Press |
