@@ -1,6 +1,6 @@
 ## MobiFlight Profiles
 
-Please visit [https://www.mobiflight.com/](MobiFlight) and [https://hubhop.mobiflight.com/](HubHop) for information. Here I am sharing my notes and profiles for whatever I am up to with [https://www.mobiflight.com/](MobiFlight).
+Please visit [https://www.mobiflight.com/](MobiFlight) and [https://hubhop.mobiflight.com/](HubHop) for background information. Currently I am only in MSFS 2020. These are the configurations I use for the various controllers and panels that rely on MobiFlight along with some notes.
 
 ## Notes
 
