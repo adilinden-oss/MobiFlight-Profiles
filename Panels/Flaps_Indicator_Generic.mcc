@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="2e3e5a15-42ce-448c-a6a9-f946522b15aa">
+      <active>true</active>
+      <description>Flaps &lt;0</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:FLAPS HANDLE INDEX,Number)" UUID="3358c830-b02a-4787-8e7d-b66bdb43889f" />
+        <comparison active="True" value="0" operand="&lt;" ifValue="1" elseValue="0" />
+        <display type="Pin" serial="MF Flap LED/ SN-ca2-bb5" trigger="normal" pin="Flaps -1" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c85c27df-438e-4b20-b9c3-fd5eb9ae1a21">
+      <active>true</active>
+      <description>Flaps 0</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:FLAPS HANDLE INDEX,Number)" UUID="3358c830-b02a-4787-8e7d-b66bdb43889f" />
+        <comparison active="True" value="0" operand="=" ifValue="1" elseValue="0" />
+        <display type="Pin" serial="MF Flap LED/ SN-ca2-bb5" trigger="normal" pin="Flaps 0" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="21626131-c3c1-4924-b848-6ab443c48750">
+      <active>true</active>
+      <description>Flaps 1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:FLAPS HANDLE INDEX,Number)" UUID="3358c830-b02a-4787-8e7d-b66bdb43889f" />
+        <comparison active="True" value="1" operand="=" ifValue="1" elseValue="0" />
+        <display type="Pin" serial="MF Flap LED/ SN-ca2-bb5" trigger="normal" pin="Flaps 1" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2cecf430-3420-44fc-bb50-774a1a7fe9aa">
+      <active>true</active>
+      <description>Flaps 2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:FLAPS HANDLE INDEX,Number)" UUID="3358c830-b02a-4787-8e7d-b66bdb43889f" />
+        <comparison active="True" value="2" operand="=" ifValue="1" elseValue="0" />
+        <display type="Pin" serial="MF Flap LED/ SN-ca2-bb5" trigger="normal" pin="Flaps 2" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="6821c939-dbe0-440d-b018-37fd72a48024">
+      <active>true</active>
+      <description>Flaps 3</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:FLAPS HANDLE INDEX,Number)" UUID="3358c830-b02a-4787-8e7d-b66bdb43889f" />
+        <comparison active="True" value="3" operand="=" ifValue="1" elseValue="0" />
+        <display type="Pin" serial="MF Flap LED/ SN-ca2-bb5" trigger="normal" pin="Flaps 3" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3605a75b-1c06-44df-9845-23ec85898bba">
+      <active>true</active>
+      <description>Flaps 4</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.5.0.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(A:FLAPS HANDLE INDEX,Number)" UUID="3358c830-b02a-4787-8e7d-b66bdb43889f" />
+        <comparison active="True" value="4" operand="=" ifValue="1" elseValue="0" />
+        <display type="Pin" serial="MF Flap LED/ SN-ca2-bb5" trigger="normal" pin="Flaps 4" pinBrightness="255" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs />
+      </settings>
+    </config>
+  </outputs>
+  <inputs />
+</MobiflightConnector>
